@@ -1,0 +1,42 @@
+/* common style  */
+body {
+  background-color: rgb(216, 203, 194);
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+/* nav style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  
+  
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav button{
+    background-color: #fd6e0a;
+    color: rgb(219, 218, 236);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
